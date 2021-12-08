@@ -5,6 +5,8 @@ CarreMagique/test/
 notes.txt
 CarreMagique/sources/
 CarreMagique/Properties/
+CarreMagique/bin/
+CarreMagique/obj/
 CarreMagique.sln
 
 ## Ignore Visual Studio temporary files, build results, and
