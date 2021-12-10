@@ -5,13 +5,20 @@ namespace CarreMagique
 {
     class Program
     {
+        //static void Main(string[] args)
+        //{
+        //    Uti.Info("Program", "Main", "");
+        //    Uti.ReferencesProgramme("RODDE","Alain","carre-magique","1.0.2");
+        //    Menu menu = new Menu();
+        //    menu.MethodesMenuJeu();
+        //    Console.WriteLine();
+        //}
+
+
         static void Main(string[] args)
         {
-            Uti.Info("Program", "Main", "");
-            Uti.ReferencesProgramme("RODDE","Alain","carre-magique","1.0.2");
-            Menu menu = new Menu();
-            menu.MethodesMenuJeu();
-            Console.WriteLine();
+            TestTableau tt = new TestTableau();
+            tt.A_F1();
         }
     }  
 
